@@ -151,7 +151,7 @@ const Blog = () => {
                         {video.duration}
                       </div>
                       <button 
-                        className="absolute inset-0 flex items-center justify-center"
+                        className="absolute inset-0 flex items-center justify-center btn btn-primary"
                         onClick={() => window.open(video.url, '_blank')}
                       >
                         <FontAwesomeIcon 
@@ -190,7 +190,7 @@ const Blog = () => {
                       <p className="text-gray-600 text-sm mb-2">{podcast.description}</p>
                       <div className="flex items-center justify-between text-sm text-gray-500">
                         <span>{podcast.date} • {podcast.duration}</span>
-                        <button className="bg-blue-600 text-white px-4 py-1 rounded-full text-sm hover:bg-blue-700 transition-colors">
+                        <button className="bg-blue-600 text-white px-4 py-1 rounded-full text-sm hover:bg-blue-700 transition-colors btn btn-success">
                           Escuchar
                         </button>
                       </div>

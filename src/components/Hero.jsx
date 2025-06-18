@@ -29,7 +29,7 @@ const Hero = () => {
             
             <div className="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-start">
               <a 
-                href="https://open.spotify.com/episode/4pfUDlsazk9yGraRr1EPCF?si=qPpQuMd-QWqaINLVm9A_UA"
+                href="https://drive.google.com/file/d/1ogDOuKaFS83WXcH83jevHLQNcpoZAX6C/view"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-primary btn-lg px-4 py-3 fw-semibold rounded-pill shadow-sm text-decoration-none"
