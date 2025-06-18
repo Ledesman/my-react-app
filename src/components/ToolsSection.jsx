@@ -9,7 +9,7 @@ const ToolsSection = () => {
     }, {
       title: 'Chatbot',
       description: 'https://landbot.online/v3/H-2959307-MZ7U2C3BJCIRX1UO/index.html',
-      icon: '�'
+      icon: '🤖'
     } ,
     {
       title: 'Chatbot IA',
