@@ -35,7 +35,7 @@ const videos = [
   {
     id: 1,
     title: 'Introducción a la IA Generativa',
-    thumbnail: 'https://img.youtube.com/vi/abc123/maxresdefault.jpg',
+    thumbnail: 'https://imgs.search.brave.com/tSb6QsPNlbAPfsXbl4ASHH3lgbXPRp7dVssxIEeJkv8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Z3N0YXRpYy5jb20v/YnJpY2tzL2ltYWdl/Lzg0Yjk4MzBlLWFm/NDMtNGRhMS1hODlj/LWJhNWUwYWYwMjQz/NS5wbmc',
     duration: '12:45',
     views: '1.2K',
     date: 'Hace 1 semana',
@@ -44,7 +44,7 @@ const videos = [
   {
     id: 2,
     title: 'Tutorial: Primeros pasos con modelos de IA',
-    thumbnail: 'https://img.youtube.com/vi/def456/maxresdefault.jpg',
+    thumbnail: 'https://imgs.search.brave.com/I04aPHBW9cBF3QJ1R_6pvYTAp2b3KVJq8_nTjcRTiIQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kMS5h/d3NzdGF0aWMuY29t/L2luZHVzdHJ5L3Rl/bGVjb20vMjAyMy1z/aXRlL3JlaW1hZ2lu/aW5nLWNvbnN1bWVy/LWV4cGVyaWVuY2Uu/ODY3NmJhYTg3YTdm/MGZjMzI5MmViZjFk/YjM5NjAyMzY2ZmQ0/MmMxYy5qcGc',
     duration: '18:30',
     views: '856',
     date: 'Hace 2 semanas',
@@ -142,7 +142,7 @@ const Blog = () => {
                 {videos.map((video) => (
                   <div key={video.id} className="rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
                     <div className="relative">
-                      <img 
+                      <img
                         src={video.thumbnail} 
                         alt={video.title} 
                         className="w-full h-48 object-cover"
