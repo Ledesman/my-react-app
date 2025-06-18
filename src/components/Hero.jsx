@@ -76,7 +76,7 @@ const Hero = () => {
                 }}
               >
                 <i className="bi bi-play-circle me-2"></i>
-                Ver video tutorial
+                Ver video explicativo
               </a>
             </div>
             
