@@ -142,14 +142,18 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item ms-2 d-none d-lg-block">
-              <Link 
-                to="/demo" 
+              <a 
+                href="https://landbot.online/v3/H-2959307-MZ7U2C3BJCIRX1UO/index.html" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn btn-primary rounded-pill px-4 fw-medium"
                 style={{
                   background: 'linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%)',
                   border: 'none',
                   boxShadow: '0 4px 10px rgba(79, 70, 229, 0.3)',
                   transition: 'all 0.3s ease',
+                  textDecoration: 'none',
+                  color: 'white'
                 }}
                 onMouseOver={(e) => {
                   e.target.style.transform = 'translateY(-2px)';
@@ -160,8 +164,8 @@ const Navbar = () => {
                   e.target.style.boxShadow = '0 4px 10px rgba(79, 70, 229, 0.3)';
                 }}
               >
-                Probar Ahora
-              </Link>
+                Probar Nuestro Chatbot
+              </a>
             </li>
           </ul>
         </div>
