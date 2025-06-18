@@ -2,6 +2,15 @@ import React from 'react';
 
 const ToolsSection = () => {
   const tools = [
+     {
+      title: 'Generador de Audio',
+      description: 'https://drive.google.com/file/d/1ogDOuKaFS83WXcH83jevHLQNcpoZAX6C/view',
+      icon: '🔊'
+    }, {
+      title: 'Chatbot',
+      description: 'https://landbot.online/v3/H-2959307-MZ7U2C3BJCIRX1UO/index.html',
+      icon: '�'
+    } ,
     {
       title: 'Chatbot IA',
       description: 'Comunícate con nuestro asistente inteligente',
@@ -17,16 +26,8 @@ const ToolsSection = () => {
       description: 'Traduce texto entre múltiples idiomas',
       icon: '🌐'
     },
-    {
-      title: 'Generador de Audio',
-      description: 'https://drive.google.com/file/d/1ogDOuKaFS83WXcH83jevHLQNcpoZAX6C/view',
-      icon: '🔊'
-    },
-    {
-      title: 'Chatbot',
-      description: 'https://landbot.online/v3/H-2959307-MZ7U2C3BJCIRX1UO/index.html',
-      icon: '�'
-    }
+  
+   
   ];
 
   return (
