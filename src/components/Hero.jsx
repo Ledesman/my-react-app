@@ -28,15 +28,18 @@ const Hero = () => {
             </p>
             
             <div className="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-start">
-              <Link 
-                to="/demo" 
-                className="btn btn-primary btn-lg px-4 py-3 fw-semibold rounded-pill shadow-sm"
+              <a 
+                href="https://open.spotify.com/episode/4pfUDlsazk9yGraRr1EPCF?si=qPpQuMd-QWqaINLVm9A_UA"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary btn-lg px-4 py-3 fw-semibold rounded-pill shadow-sm text-decoration-none"
                 style={{
                   background: 'linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%)',
                   border: 'none',
                   transition: 'all 0.3s ease',
                   position: 'relative',
-                  overflow: 'hidden'
+                  overflow: 'hidden',
+                  color: 'white'
                 }}
                 onMouseOver={(e) => {
                   e.target.style.transform = 'translateY(-2px)';
@@ -47,9 +50,9 @@ const Hero = () => {
                   e.target.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.1)';
                 }}
               >
-                <i className="bi bi-lightning-charge-fill me-2"></i>
-                Empezar ahora
-              </Link>
+                <i className="bi bi-mic-fill me-2"></i>
+                Empezar ahora escuchar audio
+              </a>
               
               <a 
                 href="https://www.youtube.com/watch?v=yBb8RErNPN4" 
