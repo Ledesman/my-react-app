@@ -64,8 +64,8 @@ const podcasts = [
   },
   {
     id: 2,
-    title: 'Ética en la IA',
-    description: 'Analizando los aspectos éticos del desarrollo de IA.',
+    title: 'Podcasting e inteligencia artificial',
+    description: 'la nueva voz de la educación digital.',
     duration: '38:15',
     date: '5 Jun 2025',
     audioUrl: 'https://open.spotify.com/episode/4pfUDlsazk9yGraRr1EPCF?si=qPpQuMd-QWqaINLVm9A_UA',
@@ -190,9 +190,14 @@ const Blog = () => {
                       <p className="text-gray-600 text-sm mb-2">{podcast.description}</p>
                       <div className="flex items-center justify-between text-sm text-gray-500">
                         <span>{podcast.date} • {podcast.duration}</span>
-                        <button className="bg-blue-600 text-white px-4 py-1 rounded-full text-sm hover:bg-blue-700 transition-colors btn btn-success">
+                        <a 
+                          href={podcast.audioUrl} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="btn btn-success text-white px-4 py-1 rounded-full text-sm hover:bg-blue-700 transition-colors btn btn-success inline-block"
+                        >
                           Escuchar
-                        </button>
+                        </a>
                       </div>
                     </div>
                   </div>
