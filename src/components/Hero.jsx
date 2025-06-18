@@ -49,12 +49,17 @@ const Hero = () => {
                 Empezar ahora
               </Link>
               
-              <Link 
-                to="/tutorial" 
+              <a 
+                href="https://www.youtube.com/watch?v=yBb8RErNPN4" 
+                target="_blank" 
+                rel="noopener noreferrer"
                 className="btn btn-outline-primary btn-lg px-4 py-3 fw-semibold rounded-pill"
                 style={{
                   borderWidth: '2px',
                   transition: 'all 0.3s ease',
+                  textDecoration: 'none',
+                  display: 'inline-flex',
+                  alignItems: 'center'
                 }}
                 onMouseOver={(e) => {
                   e.target.style.transform = 'translateY(-2px)';
@@ -67,7 +72,7 @@ const Hero = () => {
               >
                 <i className="bi bi-play-circle me-2"></i>
                 Ver video tutorial
-              </Link>
+              </a>
             </div>
             
             <div className="mt-4 d-flex flex-wrap justify-content-center justify-content-lg-start gap-3">
