@@ -18,11 +18,13 @@ const Hero = () => {
         <div className="row align-items-center">
           <div className="col-lg-7 text-center text-lg-start mb-5 mb-lg-0">
             <h1 className="display-4 fw-bold mb-4">
-              <span className="text-primary">IA</span> Generativa
+              <span className="text-primary">Eduplata</span> Soluciones
             </h1>
             <p className="lead text-muted mb-4">
-              Tecnología de vanguardia para transformar tus ideas en realidad. 
-              Potencia tu creatividad con inteligencia artificial de última generación.
+            Somos una consultora en tecnología educativa que impulsa la transformación del aprendizaje con soluciones digitales innovadoras. 
+            Diseñamos recursos interactivos, capacitamos docentes, evaluamos programas educativos y acompañamos a instituciones en la integración 
+            efectiva de la tecnología en el aula. 
+            Creemos en la innovación y la investigación para construir una educación más accesible y dinámica.
             </p>
             
             <div className="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-start">
