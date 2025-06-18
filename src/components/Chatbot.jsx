@@ -40,6 +40,7 @@ const Chatbot = () => {
       setTimeout(() => {
         const botResponses = [
           "¡Entendido! ¿Hay algo más en lo que pueda ayudarte?",
+          "https://landbot.online/v3/H-2959307-MZ7U2C3BJCIRX1UO/index.html",
           "Interesante, ¿te gustaría profundizar más en este tema?",
           "¡Claro! Estoy aquí para ayudarte con lo que necesites.",
           "Gracias por compartir. ¿En qué más puedo asistirte?",
